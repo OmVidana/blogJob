@@ -1,0 +1,75 @@
+:root {
+	--Heading: 'PT Sans', sans-seriff;
+	--Body: 'Open Sans', sans-seriff;
+
+	--Amarillo:#FFEC33;
+	--Morado:#8932C8;
+	--Negro:#000000;
+}
+html {
+	box-sizing: border-box;
+	font-size: 60%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* General */
+.contenedor {
+	max-width: 1000px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4 {
+	font-family: var(--Heading);
+	color: floralwhite;
+}
+h1 {
+	font-size: 50px;
+	color: floralwhite;
+	opacity: 0.6;
+}
+h2 {  
+	font-size:medium;
+
+}
+h3 {
+	font-size:small;
+
+}
+h4 {
+	font-size: smaller;
+}
+img {
+	max-width: 100%;
+}
+
+/*Music-Blog*/
+.no-margin {
+	margin: 0;
+}
+.no-padding {
+	padding:0;
+}
+.text-center {
+	text-align: center;
+}
+
+/* Header */
+.masthead {
+	background-image: url(/images/CabinaJDMorada.jpg);
+	/* height: 60rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; */
+}
+
+.bi-heart{
+	border: red;
+	border-style: solid;
+	background-colr
+}
