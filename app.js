@@ -74,7 +74,7 @@ app.post('/like5', (req, res) =>{
     res.render('index', {commentsFront : comments, actualUser : userCommentName, colors : colors});
 });
 app.post('/like6', (req, res) =>{
-    colors[6] = '#FFFF';
+    colors[5] = '#FFFF';
     res.render('index', {commentsFront : comments, actualUser : userCommentName, colors : colors});
 });
 
